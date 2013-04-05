@@ -1,10 +1,11 @@
 /* ===================================================
  * pdbpopover.jquery.js
- * http://twitter.github.com/bootstrap/javascript.html#transitions
+ * https://github.com/AntonPetrov/pdbpopover
  * ===================================================
  *
- * jQuery plugin for
- * Requires Twitter Bootstrap and popover plugin.
+ * jQuery plugin that complements the Twitter Bootstrap popover plugin
+ * for displaying information about RNA-containing PDB files.
+ * Relies on [RNA 3D Hub](http://rna.bgsu.edu/rna3dhub) for data.
  * ========================================================== */
 
 ;(function($) {

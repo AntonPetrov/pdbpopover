@@ -16,10 +16,9 @@
 
         init: function () {
             $('html').click(function (e) {
-                console.log('outside click');
                 if (isVisible) {
                     $('.pdb').popover('destroy');
-                    isVisible = false
+                    isVisible = false;
                 }
             });
         },
@@ -56,7 +55,7 @@
 
         $.fn.pdbInfo.options = $.extend( {}, $.fn.pdbInfo.options, options );
 
-        // initialize model state for each element
+        // maintain chaining
         return this.each( function() {
             var $this = $(this);
             $this.click(methods.lookUpInfo);
